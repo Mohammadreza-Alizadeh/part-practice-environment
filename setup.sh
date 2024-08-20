@@ -114,7 +114,7 @@ sudo -u $SUDO_USER ln -s some_file1.txt ./part/usr/local/bin/some_file_link.txt
 
 # Copying files to .part/files dir
 if [[ -d ./files ]]; then
-    cp -r files part/
+   sudo -u $SUDO_USER cp -r files part/
 else
     echo "couldn't find files directory. but it does'nt matter you can download files from telegram and copy in ./part directory by yourself"
 fi
