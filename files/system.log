@@ -1,0 +1,7 @@
+
+2024-08-14 10:15:32 ERROR CRITICAL Something went wrong
+2024-08-14 10:16:45 INFO Starting service
+2024-08-14 10:17:11 CRITICAL ERROR Failed to connect to database
+2024-08-14 10:18:29 INFO Service running
+2024-08-14 10:19:55 ERROR CRITICAL Out of memory
+2024-08-14 10:20:01 INFO Service stopped
